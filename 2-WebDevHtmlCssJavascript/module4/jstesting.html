@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+        function addPara() {
+            var newPara = document.createElement("p");
+            var newText = document.createTextNode("Hello world.");
+            newPara.appendChild(newText);
+            document.body.appendChild(newPara);
+        }
+    </script>
+    <script src="jstesting.js"></script>
+    </head>
+    <body onload="addPara()">
+        <p>Static para.</p>
+        <button id="addanother" onclick="buttonClickCallback()" onmouseover="mouseOverCallback()"> Add more text </button> <br/>
+    </body>

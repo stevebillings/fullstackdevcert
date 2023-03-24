@@ -1,0 +1,143 @@
+#home
+{
+	margin-top: -1px;
+	margin-left: -1px;
+	margin-right: -1px;
+	padding-bottom: 2cm;
+	background-color: rgb(200, 200, 220);
+}
+
+header
+{
+	font-size: 30px;
+	color:rgb(180, 180, 255);
+	float: left;
+	padding-left: 2cm;
+}
+
+nav
+{
+	float: right;
+	padding-right: 1cm;
+}
+
+.navbutton
+{
+	position: static;
+	color: rgb(200, 200, 200);
+	background-color: rgb(100, 100, 200);
+	margin: 10px;
+	padding: 10px;
+	border-radius: 1mm;
+	font-size: 20px;
+	text-decoration:rgb(200, 100, 113);
+	
+}
+
+.navbutton:hover
+{
+	color: white;
+}
+
+.conversion-grid
+{
+	display: grid;
+}
+
+.conversion
+{
+	vertical-align: auto;
+	margin: auto;
+	width: 30%;
+	position: relative;
+
+	border-top-style: solid;
+    background-color: white;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+figure
+{
+	float: left;
+	align-self: auto;
+	width: 200px;
+}
+
+image
+{
+	width: 200px;
+}
+
+figcaption
+{
+	color: black;
+	font-size: 17px;
+	text-align: center;
+}
+
+.convertbutton
+{
+	font-size: 20px;
+	border-color: transparent;
+	border-radius: 40px;
+	background-color: greenyellow;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.convertbutton:hover
+{
+	cursor: pointer;
+}
+
+#temperature
+{
+    border-top-color: green;
+}
+
+#weight
+{
+    border-top-color: coral;
+}
+
+#distance
+{
+    border-top-color: cyan;
+}
+
+legend
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+body
+{
+	background-color: black;
+}
+
+#homebuttondiv
+{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+}
+
+footer
+{
+	background-color: white;
+}
