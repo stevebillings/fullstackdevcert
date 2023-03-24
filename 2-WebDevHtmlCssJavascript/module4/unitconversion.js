@@ -13,12 +13,12 @@ function kmValueToMiles(kmValue) {
 
 function convert(fromElementId, toElementId, conversionFunction) {
     console.log("convert() running for element " + fromElementId);
-    var fromElement = document.getElementById(fromElementId);
+    let fromElement = document.getElementById(fromElementId);
     if (fromElement.value != "") {
         console.log("Got an input value: " + parseFloat(fromElement.value));
-        var toValue = conversionFunction(fromElement.value);
+        let toValue = conversionFunction(fromElement.value);
         console.log("Converted that to: " + toValue);
-        var toElement = document.getElementById(toElementId);
+        let toElement = document.getElementById(toElementId);
         toElement.value = toValue;
     }
 }

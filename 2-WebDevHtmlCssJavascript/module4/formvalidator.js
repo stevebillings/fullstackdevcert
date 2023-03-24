@@ -1,6 +1,6 @@
 function checkData() {
-    var nameElement = document.getElementById("name");
-    var emailElement = document.getElementById("email");
+    let nameElement = document.getElementById("name");
+    let emailElement = document.getElementById("email");
     console.log("Name: " + nameElement.value);
     console.log("Email: " + emailElement.value);
 
